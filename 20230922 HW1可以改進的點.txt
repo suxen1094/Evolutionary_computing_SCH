@@ -1,0 +1,6 @@
+2023/9/22 和學長討論過後，HW1可以改進的地方
+
+1. 在跑每筆測資的時候，至少要跑30次以上，才會估的準
+2. 可以使用C還有C++來寫，可以跑得比較快，而不是使用Python
+3. Anytime behavior所plot出來的圖應該是在三十次之中，每個值都要是該generation中30次取最好的值，而不是該generation的平均值
+4. 在比較不同的n、pc、pm的時候，以n做為例子，可以把n=5、n=3...的real-value uniform crossover放在一起，並把不同的representation、crossover分開，而不是把n=2、n=3...彼此之間分開
